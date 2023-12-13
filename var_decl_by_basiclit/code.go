@@ -9,4 +9,7 @@ func test() {
 		_ = execIdx
 		_ = execExist
 	}
+
+	var m map[int]int
+	_ = m[2]
 }
